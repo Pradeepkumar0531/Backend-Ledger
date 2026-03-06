@@ -6,7 +6,7 @@ const userSchema = new mongoose.Schema({
         type:String,
         required: [true, "You forget enter your email id"],
         trim: true,
-        lowecase: true,
+        lowercase: true,
         match:[/^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/],
         unique: [true, "This email already exits"]
     },
@@ -36,4 +36,5 @@ userSchema.methods.comparePassword = async function(password){
 }
 
 const userModel = mongoose.model("user",userSchema);
+
 module.exports = userModel;
