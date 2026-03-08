@@ -17,6 +17,12 @@ const userSchema = new mongoose.Schema({
     password:{
         type:String,
         required: [true, "User password is required."]
+    },
+    systemUser: {
+        type : Boolean,
+        default: false,
+        immutable : true,
+        select : false
     }
 },{
     timestamps: true
