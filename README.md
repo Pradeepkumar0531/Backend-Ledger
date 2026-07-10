@@ -121,15 +121,6 @@ Create a `.env` file with:
     CLIENT_SECRET=
     REFRESH_TOKEN=
 
-## Future Improvements
-
--   Redis caching
--   Rate limiting
--   Docker support
--   CI/CD
--   Unit and integration tests
--   Structured logging
--   Monitoring and metrics
 
 ## Author
 
