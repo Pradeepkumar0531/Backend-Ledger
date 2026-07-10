@@ -1,4 +1,4 @@
-# Digital Banking Ledger Backend
+# Ledger-Based Banking System
 
 ## Overview
 
